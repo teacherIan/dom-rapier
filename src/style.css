@@ -1,0 +1,37 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+
+.pixi-canvas {
+  position: relative;
+
+}
+
+.square {
+  position: absolute;
+  width: 90px;
+  height: 90px;
+  /* background-color: rgb(169, 47, 47); */
+  z-index: 5;
+  left: 0px;
+  top: 0px;
+  transform-origin: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+
+}
+
+#app {
+  position: absolute;
+  width: 100vw;
+  height: 100vh;
+}
+
+#range {
+  z-index: 500;
+}
